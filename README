@@ -1,0 +1,37 @@
+A very simple tweeting sensor.
+
+To get started:
+1) Load an arduino with AnalogToSerial.ino
+2) construct the circuit described in AnalogToSerial.ino
+3) plug in the arduino (and find the port
+4) Fill in the following:
+    A) port address (of arduino)
+    B) twitter info: consumer_key, consumer_secret,
+        access_token, access_token_secret
+5) run the script
+
+
+-- Twitter --
+
+For information on the various twitter keys and secrets look at:
+
+http://dev.twitter.com
+http://hueniverse.com/oauth/
+
+In brief, you'll need to create an application to get the consumer
+key and secret and generate a READ/WRITE access token.
+
+
+-- Windows --
+
+If this is running on a windows machine, consider using portable python:
+
+http://www.portablepython.com/
+
+Keep in mind, on windows, pythonw.exe does not execute a console.
+Take a look at run.bat for an example run script.
+
+
+-- Debugging --
+
+remove main.py line 4 to make the script less 'chatty'
